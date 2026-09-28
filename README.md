@@ -17,7 +17,7 @@ The Taku (AnyThink) AppLovin MAX mediation adapter for iOS, distributed via Swif
    ```
    https://github.com/TakuMediation-packages/AnyThinkMediationApplovinAdapter_SPM
    ```
-3. Select **Exact Version** and enter the target version (e.g. `13.6.4-2.0`).
+3. Select **Exact Version** and enter the target version (e.g. `130604.2.0`).
 4. Add the `AnyThinkMediationApplovinAdapter` product to your app target.
 5. In your target's **Build Settings**, add `-ObjC` to **Other Linker Flags**.
 
@@ -27,7 +27,7 @@ The Taku (AnyThink) AppLovin MAX mediation adapter for iOS, distributed via Swif
 dependencies: [
     .package(
         url: "https://github.com/TakuMediation-packages/AnyThinkMediationApplovinAdapter_SPM.git",
-        exact: "13.6.4-2.0"
+        exact: "130604.2.0"
     )
 ]
 ```
